@@ -1,4 +1,4 @@
-# deus-ex-game-of-the-year-edition-fix-without-mods
+# DeusEx GOTY Resolution Fix No Mods
 DeusEx GOTY Resolution Fix No Mods
 How to use:
 
