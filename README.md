@@ -12,14 +12,16 @@ How to use:
 
 * FullscreenViewportX=640
 * FullscreenViewportY=480
-
+* FullscreenColorBits=16
 5.* Change these values to:
 
 * FullscreenViewportX=1920
 
 * FullscreenViewportY=1080
 
+* FullscreenColorBits=32
+
 That's it,enjoy.
 Thanks 
-gimalaji_blake
+silentgamepls
 
