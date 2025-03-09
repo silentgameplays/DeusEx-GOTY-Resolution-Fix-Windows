@@ -46,6 +46,33 @@ How to use:
 * OldReverbIntensity=0.2
 * ProbeDevicesOnly=False
 * UseHRTF=Enable
+
+# If the game starts crashing on Windows 11 due to OpenAL issues it is possible to set the frequency to 48000Hz
+
+* [ALAudio.ALAudioSubsystem]
+* ALDevice=DefaultDevice
+* OutputRate=48000Hz
+* SampleRate=48000Hz
+* SoundVolume=64
+* SpeechVolume=64
+* MusicVolume=255
+* EffectsChannels=64
+* AmbientFactor=0.700000
+* DopplerFactor=0.010000
+* UseOriginalUnreal=True
+* bSoundAttenuate=True
+* UseDigitalMusic=True
+* MusicInterpolation=SPLINE
+* MusicDsp=DSP_ALL
+* MusicPanSeparation=50
+* MusicStereoMix=100
+* MusicAmplify=1
+* EmulateOldReverb=True
+* UseReverb=True
+* OldReverbIntensity=0.2
+* ProbeDevicesOnly=False
+* UseHRTF=Enable
+
 12. You need files from OpenAL_v2.4.7_DeusEx/OpenAL_v2.4.7_DeusEx to use the audio fix, this fixes the intro cut off issues with the original audio galaxy for Deus EX.
 
 # Deus Ex Linux Fix
