@@ -37,5 +37,19 @@ How to use:
 * ProbeDevicesOnly=False
 * UseHRTF=Enable
 14. You need files from OpenAL_v2.4.7_DeusEx/OpenAL_v2.4.7_DeusEx to use the audio fix, this fixes the intro cut off issues with the original audio galaxy for Deus EX.
-15. That is it, you can enjoy the Deus Ex without any other changes.
+
+# Deus Ex Linux Fix
+
+1. Install Deus EX GOTY
+
+2. Dowbload this fix 
+
+3. Copy/paste contents of DeusExe Kentjes Launcher into folder /home/username/.local/share/Steam/steamapps/common/Deus Ex/System
+
+4. Instead of DX10 copy/paste the OpenGlDrv.dll from this fix for newer OpenGL renderer
+
+5. For Sound Fix set the latency in kentje's launcher to 0.
+
+# That is it, you can enjoy the Deus Ex without any other changes.
+
 * Kentje's launcher and dx10 renderer by Kentje, OpenAL fix by Smirftsch from Oldunreal, compiled for ease of use by silentgameplays.
