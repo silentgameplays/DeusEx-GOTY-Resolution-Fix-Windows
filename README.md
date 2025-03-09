@@ -13,29 +13,29 @@ How to use:
 9. Find the line  AudioDevice=Galaxy.GalaxyAudioSubsystem
 10. Change the line from  AudioDevice=Galaxy.GalaxyAudioSubsystem to AudioDevice=ALAudio.ALAudioSubsystem
 11. Add this block of code to the end of your DeusEx.ini
-* [ALAudio.ALAudioSubsystem]
-* ALDevice=DefaultDevice
-* OutputRate=44100Hz
-* SampleRate=44100Hz
-* SoundVolume=64
-* SpeechVolume=64
-* MusicVolume=255
-* EffectsChannels=64
-* AmbientFactor=0.700000
-* DopplerFactor=0.010000
-* UseOriginalUnreal=True
-* bSoundAttenuate=True
-* UseDigitalMusic=True
-* MusicInterpolation=SPLINE
-* MusicDsp=DSP_ALL
-* MusicPanSeparation=50
-* MusicStereoMix=100
-* MusicAmplify=1
-* EmulateOldReverb=True
-* UseReverb=True
-* OldReverbIntensity=0.2
-* ProbeDevicesOnly=False
-* UseHRTF=Enable
+[ALAudio.ALAudioSubsystem]
+``ALDevice=DefaultDevice
+OutputRate=44100Hz
+SampleRate=44100Hz
+SoundVolume=64
+SpeechVolume=64
+MusicVolume=255
+EffectsChannels=64
+AmbientFactor=0.700000
+DopplerFactor=0.010000
+UseOriginalUnreal=True
+bSoundAttenuate=True
+UseDigitalMusic=True
+MusicInterpolation=SPLINE
+MusicDsp=DSP_ALL
+MusicPanSeparation=50
+MusicStereoMix=100
+MusicAmplify=1
+EmulateOldReverb=True
+UseReverb=True
+OldReverbIntensity=0.2
+ProbeDevicesOnly=False
+UseHRTF=Enable``
 14. You need files from OpenAL_v2.4.7_DeusEx/OpenAL_v2.4.7_DeusEx to use the audio fix, this fixes the intro cut off issues with the original audio galaxy for Deus EX.
 15. That is it, you can enjoy the Deus Ex without any other changes.
 * Kentje's launcher and dx10 renderer by Kentje, OpenAL fix by Smirftsch from Oldunreal, compiled for ease of use by silentgameplays.
