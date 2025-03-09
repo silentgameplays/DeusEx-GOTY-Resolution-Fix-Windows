@@ -75,6 +75,15 @@ How to use:
 
 12. You need files from OpenAL_v2.4.7_DeusEx/OpenAL_v2.4.7_DeusEx to use the audio fix, this fixes the intro cut off issues with the original audio galaxy for Deus EX.
 
+13. If the game fails to register the 1080p or whatever resolution you use and 32bit colors with kentje's launcher, it is possible to change it manually by editing the DeusEX.ini
+* [WinDrv.WindowsClient]
+* WindowedViewportX=1920
+* WindowedViewportY=1080
+* WindowedColorBits=32
+* FullscreenViewportX=1920
+* FullscreenViewportY=1080
+* FullscreenColorBits=32
+
 # Deus Ex Linux Fix
 
 1. Install Deus EX GOTY
