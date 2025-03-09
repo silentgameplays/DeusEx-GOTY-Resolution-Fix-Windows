@@ -12,7 +12,7 @@ How to use:
 
 5. Copy/Paste contents of DeusExe Kentjes Launcher into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 
-6. Copy/Paste contents of OpenAL_v2.4.7_DeusEx/OpenAL_v2.4.7_DeusEx into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
+6. Copy/Paste contents of OpenAL_v2.4.7_DeusEx into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 
 7. Launch Deus Ex again select Direct3D 10 Support in Kentje's launcher, this fixes most of lightning issues and scaling issues on Windows
 
