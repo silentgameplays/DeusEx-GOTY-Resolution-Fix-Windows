@@ -71,9 +71,15 @@ How to use:
 
 3. Copy/paste contents of DeusExe Kentjes Launcher into folder /home/username/.local/share/Steam/steamapps/common/Deus Ex/System
 
-4. Instead of DX10 copy/paste the OpenGlDrv.dll from this fix for newer OpenGL renderer
+4. Instead of DX10 copy/paste the OpenGlDrv.dll from this fix for newer OpenGL renderer or you can leave the original DX 9 renderer it goes through Vulkan compatibility layer and is not as dark as the Windows version.
 
 5. For Sound Fix set the latency in kentje's launcher to 0, if issues occur revert latency back to 40
+
+# Additional hidden settings for all renderers:
+
+1. Enter chat default key is T
+2. Delete say and type in preferences
+3. Now you can adjust settings for all renderers like triple buffering anisotropic filtering and disable what you don't need like bloom in DX 10 renderer.
 
 # That is it, you can enjoy the Deus Ex without any other changes.
 
