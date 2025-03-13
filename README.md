@@ -73,7 +73,67 @@ How to use:
 
 4. Instead of DX10 copy/paste the OpenGlDrv.dll from this fix for newer OpenGL renderer or you can leave the original DX 9 renderer it goes through Vulkan compatibility layer and is not as dark as the Windows version.
 
-5. For Sound Fix set the latency in kentje's launcher to 0, if issues occur revert latency back to 40
+5. Dor best performance it is recommended to use these settings in the DeusEx.ini file for OpenGL Renderer:
+* [OpenGLDrv.OpenGLRenderDevice]
+* ZRangeHack=False
+* NoAATiles=True
+* NumAASamples=4
+* UseAA=True
+* MaskedTextureHack=True
+* SmoothMaskedTextures=True
+* SceneNodeHack=True
+* FrameRateLimit=120
+* SwapInterval=0
+* UseFragmentProgram=True
+* UseVertexProgram=True
+* UseCVA=False
+* UseMultiDrawArrays=True
+* TexDXT1ToDXT3=False
+* DynamicTexIdRecycleLevel=100
+* CacheStaticMaps=True
+* UseTexPool=True
+* UseTexIdPool=True
+* UseSSE=True
+* UseSSE2=True
+* BufferTileQuads=True
+* SinglePassDetail=False
+* SinglePassFog=False
+* ColorizeDetailTextures=False
+* DetailClipping=False
+* DetailMax=2
+* RefreshRate=0
+* MaxTMUnits=0
+* NoFiltering=False
+* MaxAnisotropy=16
+* UseTNT=False
+* Use16BitTextures=False
+* UseS3TC=True
+* UseAlphaPalette=True
+* UseTrilinear=False
+* UsePrecache=True
+* ShareLists=False
+* UsePalette=True
+* UseMultiTexture=True
+* UseBGRATextures=True
+* UseZTrick=False
+* MaxLogTextureSize=12
+* MinLogTextureSize=0
+* OneXBlending=True
+* GammaCorrectScreenshots=False
+* GammaOffsetBlue=0.000000
+* GammaOffsetGreen=0.000000
+* GammaOffsetRed=0.000000
+* GammaOffset=0.000000
+* LODBias=0.000000
+* DetailTextures=True
+* DescFlags=0
+* Description=
+* HighDetailActors=True
+* Coronas=True
+* ShinySurfaces=True
+* VolumetricLighting=True 
+
+6. For Sound Fix set the latency in kentje's launcher to 0, if issues occur revert latency back to 40
 
 # Additional hidden settings for all renderers:
 
