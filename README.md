@@ -73,7 +73,37 @@ How to use:
 
 4. Instead of DX10 copy/paste the OpenGlDrv.dll from this fix for newer OpenGL renderer or you can leave the original DX 9 renderer it goes through Vulkan compatibility layer and is not as dark as the Windows version.
 
-5. Dor best performance it is recommended to use these settings in the DeusEx.ini file for OpenGL Renderer:
+5. For best performance it is recommended to use these settings in the DeusEx.ini file for Windrv general settings and OpenGL Renderer:
+
+* [WinDrv.WindowsClient]
+* WindowedViewportX=1920
+* WindowedViewportY=1080
+* WindowedColorBits=32
+* FullscreenViewportX=1920
+* FullscreenViewportY=1080
+* FullscreenColorBits=32
+* Brightness=0.600000
+* MipFactor=1.000000
+* UseDirectDraw=True
+* UseJoystick=False
+* CaptureMouse=True
+* StartupFullscreen=True
+* CurvedSurfaces=True
+* ScreenFlashes=True
+* NoLighting=False
+* SlowVideoBuffering=False
+* DeadZoneXYZ=True
+* DeadZoneRUV=False
+* InvertVertical=False
+* ScaleXYZ=1000.000000
+* ScaleRUV=2000.000000
+* SkinDetail=High
+* TextureDetail=High
+* Decals=True
+* MinDesiredFrameRate=30.000000
+* UseDirectInput=False
+* NoDynamicLights=False
+
 * [OpenGLDrv.OpenGLRenderDevice]
 * ZRangeHack=False
 * NoAATiles=True
