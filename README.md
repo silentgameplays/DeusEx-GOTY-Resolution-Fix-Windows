@@ -75,6 +75,8 @@ How to use:
 
 5. For best performance it is recommended to use these settings in the DeusEx.ini file for Windrv general settings and OpenGL Renderer:
 
+# Windrv
+
 * [WinDrv.WindowsClient]
 * WindowedViewportX=1920
 * WindowedViewportY=1080
@@ -103,6 +105,8 @@ How to use:
 * MinDesiredFrameRate=30.000000
 * UseDirectInput=False
 * NoDynamicLights=False
+
+# Opengl Renderer
 
 * [OpenGLDrv.OpenGLRenderDevice]
 * ZRangeHack=False
