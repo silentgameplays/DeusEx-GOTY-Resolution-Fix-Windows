@@ -12,17 +12,19 @@ How to use:
 
 5. Copy/Paste contents of DeusExe Kentjes Launcher into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 
-6. Press "T" by default to enable chat
+6. Launch the game through kentje's launcher, configure kentje's launcher for DX 10, set FPS to 120,similar to this:
 
-7. Delete "Say"
+7. Press "T" by default to enable chat
 
-8. Enter preferences
+8. Delete "Say"
 
-9. Under Rendering Select Direct3D 10 support and set the settings like in the picture below:
+9. Enter preferences
+
+10. Under Rendering Select Direct3D 10 support and set the settings like in the picture below:
 
 ![Image](https://github.com/user-attachments/assets/fdb998d2-2ff4-41c1-9b2d-e66a2e8a86d8)
 
-# 10. OpenAL AUDIO Fix Experimental Prone to Crashes at some points
+# 11. OpenAL AUDIO Fix Experimental Prone to Crashes at some points
 
 * Copy/Paste contents of OpenAL_v2.4.7_DeusEx into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 * To Fix audio issues Go C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System and select DeusEx.ini
