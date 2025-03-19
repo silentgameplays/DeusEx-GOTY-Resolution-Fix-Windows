@@ -20,7 +20,7 @@ How to use:
 
 9. Under Rendering Select Direct3D 10 support and set the settings like in the picture below:
 
-https://imgur.com/a/T6AczYa
+![Image](https://github.com/user-attachments/assets/fdb998d2-2ff4-41c1-9b2d-e66a2e8a86d8)
 
 # 10. OpenAL AUDIO Fix Experimental Prone to Crashes at some points
 
