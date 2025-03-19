@@ -12,9 +12,17 @@ How to use:
 
 5. Copy/Paste contents of DeusExe Kentjes Launcher into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 
-6. Launch Deus Ex again select Direct3D 10 Support in Kentje's launcher, this fixes most of lightning issues and scaling issues on Windows
+6. Press "T" by default to enable chat
 
-# 7. OpenAL AUDIO Fix Experimental Prone to Crashes at some points
+7. Delete "Say"
+
+8. Enter preferences
+
+9. Under Rendering Select Direct3D 10 support and set the settings like in the picture below:
+
+https://imgur.com/a/T6AczYa
+
+# 10. OpenAL AUDIO Fix Experimental Prone to Crashes at some points
 
 * Copy/Paste contents of OpenAL_v2.4.7_DeusEx into folder C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System
 * To Fix audio issues Go C:\Program Files (x86)\Steam\steamapps\common\Deus Ex\System and select DeusEx.ini
