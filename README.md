@@ -14,6 +14,12 @@ How to use:
 
 6. Launch the game through kentje's launcher, configure kentje's launcher for DX 10, set FPS to 120,similar to this:
 
+![kentjes launcher](https://github.com/user-attachments/assets/e1b8c9f6-a93b-4d98-8c88-1a3006bd2d0c)
+
+![kentjes launcher config](https://github.com/user-attachments/assets/fd43a9fc-0403-4734-a6a2-af83e25fd1b4)
+
+
+
 7. Press "T" by default to enable chat
 
 8. Delete "Say"
