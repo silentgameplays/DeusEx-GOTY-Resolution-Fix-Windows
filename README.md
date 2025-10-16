@@ -1,8 +1,7 @@
 # DeusEx GOTY Resolution and Audio Fix With some Mods
 DeusEx GOTY Resolution Fix With Some Mods
 
-**Windows Fix**
-How to use:
+**Windows 11 Fix**
 
 1. Install Deus EX GOTY from Steam Or GoG
 
