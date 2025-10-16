@@ -37,7 +37,7 @@ DeusEx GOTY Resolution Fix With Some Mods
 * Find the line  AudioDevice=Galaxy.GalaxyAudioSubsystem
 * Change the line from  AudioDevice=Galaxy.GalaxyAudioSubsystem to AudioDevice=ALAudio.ALAudioSubsystem
 
-**Add this block of code to the end of your DeusEx.ini without the** 
+**Add this block of code to the end of your DeusEx.ini without the`*`** 
 * [ALAudio.ALAudioSubsystem]
 * ALDevice=DefaultDevice
 * OutputRate=44100Hz
